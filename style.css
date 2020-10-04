@@ -1,11 +1,27 @@
+body {
+    display: flexbox;
+    margin: auto 0;
+}
+
+#container {
+    height: 960px;
+    width: 960px;
+}
+
 .row {
-  float: left;
-  width: 100%;
+    float: right;
+    width: 100%;
 }
 
 .square {
-  float: left;
-  border: black 1px solid;
-  width: 50px;
-  height: 50px;
+    float: left;
+    border: black 1px solid;
+    width: 35px;
+    height: 35px;
+}
+
+button {
+    float: right;
+    display: inline-block;
+    margin: auto 350px;
 }
