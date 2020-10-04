@@ -1,0 +1,11 @@
+.row {
+  float: left;
+  width: 100%;
+}
+
+.square {
+  float: left;
+  border: black 1px solid;
+  width: 50px;
+  height: 50px;
+}
