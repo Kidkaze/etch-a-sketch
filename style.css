@@ -1,25 +1,28 @@
 :root {
-    --columns-row: 16;
+	--columns-row: 20;
 }
 
-#container {
-    display: grid;
-    grid-template-columns: repeat(var(--columns-row), 1fr);
-    grid-template-rows: repeat(var(--columns-row), 1fr);
-    height: 500px;
-    width:  500px;
-    float: left;
+.container {
+	display: block;
+	height: 500px;
+	margin: 0 auto;
+	width: 500px;
+}
+
+#etch-container {
+	display: grid;
+	grid-template-columns: repeat(var(--columns-row), 1fr);
+	grid-template-rows: repeat(var(--columns-row), 1fr);
+	/* width: 100%;
+	height: 100%; */
 }
 
 div {
-    width: 100%;
-    height: 100%;
-    outline: 1px solid;
-    float: left;
+	width: 100%;
+	height: 100%;
+	outline: 1px solid;
 }
 
-
-button {
-    float: right;
-    margin: auto 350px;
+.reset-btn {
+	margin: 0 auto;
 }
